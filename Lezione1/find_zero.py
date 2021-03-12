@@ -1,12 +1,15 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+# Function for which we want to compute the roots
 def f(x):
     return np.sqrt(x) - x - np.log(x + np.random.rand())
 
 tolerance = 1e-5
 interval = [0, 2.5]
 counter = 1
+
+# Bolzano theorem construction
 if f(interval[0]) * f(interval[1]) < 0:
     diff = 1
     while np.abs(diff) > tolerance:
