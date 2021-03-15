@@ -16,6 +16,7 @@ for i in range(Nmax):
 print("Sum = %g" % sum)
 print("Perc. difference with exact value = %g" % ((exact - sum) / exact))
 
+# Plot S_N - S
 fig, ax = plt.subplots()
 ax.plot(differences)
 ax.set_ylabel("$S_N$")
