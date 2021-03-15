@@ -7,7 +7,7 @@ def f(x):
 
 tolerance = 1e-5
 interval = [0, 2.5]
-counter = 1
+counter = 0
 
 # Bolzano theorem construction
 if f(interval[0]) * f(interval[1]) < 0:

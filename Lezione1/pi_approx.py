@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 
-N = 10000                                                                       # Number of points to be generated
+N = 1000                                                                        # Number of points to be generated
 np.random.seed()                                                                # Set seed for random generator
 x_list = []                                                                     # List containing all random x coordinates
 y_list = []                                                                     # List containing all random y coordinates
