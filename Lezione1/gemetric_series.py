@@ -1,10 +1,10 @@
 import matplotlib.pyplot as plt
 
 # Setup
-Nmax = 10                                                                       # Numer of terms to be summed
-ratio = 0.1                                                                     # Ratio of the geometric series
-ampl = 1                                                                        # Factor in front of series
-exact = ampl / (1 - ratio)                                                      # Exact result of series
+Nmax = 10                          # Numer of terms to be summed
+ratio = 0.1                        # Ratio of the geometric series
+ampl = 1                           # Factor in front of series
+exact = ampl / (1 - ratio)         # Exact result of series
 
 # Compute sum
 differences = []
