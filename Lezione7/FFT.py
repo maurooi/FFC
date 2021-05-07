@@ -6,8 +6,8 @@ def f(t, a, b):
     return a * np.exp(- t / b) * np.sin(30 * 2 * np.pi * t) / 10
 
 N = 1000
-t = np.linspace(0, 2, N)
-y = f(t, 10, 0.1)
+t = np.linspace(0, 1, N)
+y = f(t, 1, 0.1)
 T = t[-1]
 tau = t[1] - t[0]
 
